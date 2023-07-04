@@ -62,7 +62,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const prismic = getPrismicClient();
   const projectResponse = await prismic.query(
     [Prismic.Predicates.at('document.type', 'projects')],
-    { orderings: '[document.first_publication_date_desc]' }
+    { orderings: '[document.first_publication_date desc]' }
   );
   const projects = projectResponse.results.map(project => ({
     slug: project.uid,
