@@ -52,6 +52,10 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="./Logo.svg" />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="google-site-verification"
+            content="v99Rq_8dNmCRvWoev7svowxS4vYu5-g3fItsHMtMoO4"
+          />
         </Head>
         <body>
           <Main />
